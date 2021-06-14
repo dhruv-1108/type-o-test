@@ -1,0 +1,23 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background: #1d1e20;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.type-logo {
+    margin: 20px;
+    height: 60px;
+}
+
+.type-logo-text {
+    font-size: 40px;
+    font-style: bold;
+    font-family: 'Bangers';
+    color: cyan;
+}

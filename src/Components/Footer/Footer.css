@@ -1,0 +1,7 @@
+.footer-container {
+  background: #0f1213;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

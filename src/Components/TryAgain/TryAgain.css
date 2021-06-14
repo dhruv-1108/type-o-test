@@ -1,0 +1,40 @@
+.try-again-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.try-again-container > h1 {
+    text-decoration: underline;
+    font-size: 35px;
+    margin-bottom: 21px;
+    font-family: 'Cairo';
+}
+
+.result-container > p {
+    margin: 8px;
+    font-size: 22px;
+    font-family: 'Alegreya', Arial, Helvetica, sans-serif;
+}
+
+.end-button {
+    margin: 10px;
+    border-radius: 5px;
+    min-width: 60px;
+    padding: 2px 16px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.start-again-button {
+    background-color: rgb(206, 188, 88);
+}
+
+.start-again-button:hover, 
+.start-again-button:focus {
+    background:rgb(192, 41, 21);
+}
